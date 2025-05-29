@@ -10,9 +10,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">SB</span>
+                <span className="text-white font-bold text-xl">TS</span>
               </div>
-              <span className="text-2xl font-bold">Sterling Builders</span>
+              <span className="text-2xl font-bold">Simmons Builders</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Building dreams with exceptional craftsmanship and unwavering commitment 
@@ -67,17 +67,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="text-amber-400 mt-1" size={16} />
                 <div>
-                  <p className="text-gray-400">Main: (555) 123-4567</p>
-                  <p className="text-gray-400">Emergency: (555) 911-BUILD</p>
+                  <p className="text-gray-400">Main: (256) 123-4567</p>
+                  <p className="text-gray-400">Emergency: (256) 911-BUILD</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Mail className="text-amber-400 mt-1" size={16} />
-                <p className="text-gray-400">info@sterlingbuilders.com</p>
+                <p className="text-gray-400">info@simmonsbuilders.com</p>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="text-amber-400 mt-1" size={16} />
-                <p className="text-gray-400">123 Builder's Lane<br />Construction City, CC 12345</p>
+                <p className="text-gray-400">123 Builder's Lane<br />Huntsville, AL 35810</p>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Sterling Builders. All rights reserved.
+              © 2025 Simmons Builders. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Privacy Policy</a>

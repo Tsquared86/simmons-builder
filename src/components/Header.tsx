@@ -24,9 +24,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">SB</span>
+              <span className="text-white font-bold text-xl">TS</span>
             </div>
-            <span className="text-2xl font-bold text-gray-800">Sterling Builders</span>
+            <span className="text-2xl font-bold text-gray-800">Simmons Builders</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -66,7 +66,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone size={16} />
-              <span>(555) 123-4567</span>
+              <span>(256) 123-4567</span>
             </div>
             <Button onClick={() => scrollToSection('contact')} className="bg-amber-600 hover:bg-amber-700">
               Get Quote
@@ -121,11 +121,11 @@ const Header = () => {
                 <div className="pt-4 border-t">
                   <div className="flex items-center space-x-2 text-sm text-gray-600 mb-2">
                     <Phone size={16} />
-                    <span>(555) 123-4567</span>
+                    <span>(256) 123-4567</span>
                   </div>
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Mail size={16} />
-                    <span>info@sterlingbuilders.com</span>
+                    <span>info@simmonsbuilders.com</span>
                   </div>
                 </div>
               </nav>

@@ -23,7 +23,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=2000&q=80')`
+          backgroundImage: `url('https://www.movetohuntsville.com/uploadimage/167840116857043.jpg')`
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -37,7 +37,7 @@ const Hero = () => {
             <span className="text-amber-400"> Dream Home</span>
           </h1>
           <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-            With over 20 years of experience, Sterling Builders transforms your vision into reality. 
+            With over 20 years of experience, Simmons Builders transforms your vision into reality. 
             From custom homes to major renovations, we deliver exceptional craftsmanship and 
             unparalleled service.
           </p>
