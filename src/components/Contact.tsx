@@ -45,19 +45,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      info: "(555) 123-4567",
+      info: "(256) 123-4567",
       description: "Call us for immediate assistance"
     },
     {
       icon: Mail,
       title: "Email",
-      info: "info@sterlingbuilders.com",
+      info: "info@simmonsbuilders.com",
       description: "Send us your project details"
     },
     {
       icon: MapPin,
       title: "Location",
-      info: "123 Builder's Lane, Construction City, CC 12345",
+      info: "123 Builder's Lane, Huntsville, AL 35810",
       description: "Visit our showroom and office"
     },
     {
@@ -122,7 +122,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="(555) 123-4567"
+                      placeholder="(256) 123-4567"
                     />
                   </div>
                   <div className="space-y-2">
@@ -205,7 +205,7 @@ const Contact = () => {
                   24/7 emergency construction and repair services for urgent situations.
                 </p>
                 <Button className="bg-red-600 hover:bg-red-700">
-                  Call Emergency Line: (555) 911-BUILD
+                  Call Emergency Line: (256) 911-BUILD
                 </Button>
               </CardContent>
             </Card>
